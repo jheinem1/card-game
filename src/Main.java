@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("test");
+        var myDeck = new Deck(true);
+        System.out.println(myDeck.getCards().toString());
     }
 }
