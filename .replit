@@ -1,2 +1,2 @@
 language = "java"
-run = "javac -d out src/Main.java; java -cp out Main;"
+run = ""
