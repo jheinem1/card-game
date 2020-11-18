@@ -45,4 +45,8 @@ public class Deck {
         return takeCard(card.getRank(), card.getSuit());
     }
 
+    public String toString() {
+        return cards.toString();
+    }
+
 }

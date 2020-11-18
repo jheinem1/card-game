@@ -7,7 +7,8 @@ public class Card {
     private Rank rank;
 
     public Card(Rank rank, Suit suit) {
-
+        this.rank = rank;
+        this.suit = suit;
     }
 
     public Suit getSuit() {
@@ -16,5 +17,9 @@ public class Card {
 
     public Rank getRank() {
         return rank;
+    }
+
+    public String toString() {
+        return String.format("%s of %s", rank.toString(), suit.toString());
     }
 }
